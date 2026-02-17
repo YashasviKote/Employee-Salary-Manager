@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Salary Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Employee Salary Manager</h2>
+
+    <select id="type">
+        <option value="developer">Developer</option>
+        <option value="manager">Manager</option>
+    </select>
+
+    <input type="number" id="base" placeholder="Base Salary">
+    <input type="number" id="extra" placeholder="Bonus / Allowance">
+
+    <button onclick="calculate()">Calculate Salary</button>
+
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
